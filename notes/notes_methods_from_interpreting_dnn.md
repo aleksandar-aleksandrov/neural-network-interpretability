@@ -37,7 +37,7 @@ The LRP algorithm can further be interpreted as a Taylor decomposition. Due to t
 **Explanation Continuity** means that similar input data points should have similar explanations. Both sensitivity analysis and the simple Taylor decomposition are discontinuous on the x1 = x2 line, while the deep Taylor LRP is not. \
 **Explanation Selectivity** means that we iteratively remove the features of the input with the highest relevance score. The *certainty* of the classification should then, as a result of that, drop sharply. Deep Taylor LRP performs the best out of the three methods.
 ***
-## Q's:
+### Q's:
 - Is the *expert* in the AM algorithm pretrained?
 - Can we not use a GAN-like approach in the case of AM in Code Space? If yes, does it not make sense to train the original model in such a fashion so that we have interpretation embedded in the original training process?
 - Should we dive deeper into the Taylor series explanation of the LRP?
