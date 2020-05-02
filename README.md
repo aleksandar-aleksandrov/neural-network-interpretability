@@ -2,6 +2,8 @@
 
 ## Papers
 - [Methods for Interpreting and Understanding Deep Neural Networks](https://arxiv.org/abs/1706.07979)
+- [Feature vizualization](https://distill.pub/2017/feature-visualization/)
+- [The Building Blocks of Interpretability](https://distill.pub/2018/building-blocks/)
 - [On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0130140&type=printable) 
 - [Layer-wise Relevance Propagation for Neural Networks with Local Renormalization Layers](https://arxiv.org/pdf/1604.00825.pdf)
 - [Layer-wise Relevance Propagation for Deep Neural Network Architectures](http://iphome.hhi.de/samek/pdf/BinICISA16.pdf)
