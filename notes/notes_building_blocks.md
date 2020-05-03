@@ -12,15 +12,15 @@ While the visualization shows what a DNN can detect, they still do not provide a
 \
 An alternate method is the **channel attribution**, by which we slice the cube by channels rather than spatial positions, so that we can find out the role of each filter/channel/detector in the final decision.
 ***
-## Making Things Human-Scale
+### Making Things Human-Scale
 One of the main issues that arises by trying to provide a human-understandable interpretation of DNNs is the sheer scale of modern DNNs, which normally consist of millions of neurons spread across tens or even hundreds of layers, each of which consisting of hundreds of channels. Trying to implement previously discussed techniques leads to enormous amount of information that an user should be able to follow in order to understand a single decision of a DNN. In order to prevent that, we can group neurons together by using matrix factorization in order to make the understanding of the higher-level concepts that the DNN has learned easier for a human. These groups can spawn in both spatial, but also channel direction. These groups will then be the atomar structures on the base of which interfaces for the interpretation of DNNs could be constructed.
 ***
-### The space of interpretability Interafaces
-An interface is an union of elements, which display a specific type of content (e.g. activations or attribution) using a corresponding style of presentation (e.g. feature visualization). The content of elements live in a substrates defined by the decomposition of layers into atoms (e.g. neurons, channels, groups, etc). Each interface should be constructed in such a way that it answers what the DNN recognises, how it develops understanding or focus on making the things human-scale. \
-Furthermore, the provided set of building blocks is not exhaustive and can be further extended by other dimensions such as the role of the dataset oor the model parameteres. Such interfaces could also be used for comparing models or seeing the evolution of the decision-making process during the learning phase of the DNN.
+### The space of interpretability Interfaces
+An interface is an union of elements, which display a specific type of content (e.g. activations or attribution) using a corresponding style of presentation (e.g. feature visualization). The content of elements lives in a substrates defined by the decomposition of layers into atoms (e.g. neurons, channels, groups, etc). Each interface should be constructed in such a way that it answers what the DNN recognizes, how it develops understanding or focus on making the things human-scale. \
+Furthermore, the provided set of building blocks is not exhaustive and can be further extended by other dimensions such as the role of the dataset or the model parameters. Such interfaces could also be used for comparing models or seeing the evolution of the decision-making process during the learning phase of the DNN.
 ***
 ### How Trustworthy Are These Interfaces?
-Based on earlier research, it can be concluded that directions in DNN are semantically meaningful. Furthermore, neurons have been found to respond to a mixture of concepts, rather than a single one. A concern in the case of attribution is the "path-dependance", which, however, turns out to not have a signifact influence on the output. In general, it is noteworthy to say, that further investigation in the applicability of methods in the domains of safety and fairness needs to be done.
+Based on earlier research, it can be concluded that directions in DNN are semantically meaningful. Furthermore, neurons have been found to respond to a mixture of concepts, rather than a single one. A concern in the case of attribution is the **"path-dependance"**, which, however, turns out to not have a significant influence on the output. In general, it is noteworthy to say, that further investigation in the applicability of methods in the domains of safety and fairness needs to be done.
 ***
 ### Q's
-- How are spatial and channel attribution different? Does the spatial one only concerns itself with a single chanel or positions across all channels?
+- How are spatial and channel attribution different? Does the spatial one only concerns itself with a single channel or positions across all channels?
