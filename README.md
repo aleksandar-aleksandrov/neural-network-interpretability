@@ -1,8 +1,8 @@
 # neural-network-interpretability
 
 ## Papers
-- [X] [Methods for Interpreting and Understanding Deep Neural Networks](https://arxiv.org/abs/1706.07979) | [Notes](./notes/notes_methods_from_interpreting_dnn.md)
-- [ ] [Feature vizualization](https://distill.pub/2017/feature-visualization/)
+- [X] Methods for Interpreting and Understanding Deep Neural Networks | [Paper](https://arxiv.org/abs/1706.07979) | [Notes](notes_methods_from_interpreting_dnn.md) 
+- [X] Feature Visualization | [Paper](https://distill.pub/2017/feature-visualization/) | [Notes](notes_feature_visualization.md) 
 - [ ] [The Building Blocks of Interpretability](https://distill.pub/2018/building-blocks/)
 - [ ] [On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0130140&type=printable) 
 - [ ] [Layer-wise Relevance Propagation for Neural Networks with Local Renormalization Layers](https://arxiv.org/pdf/1604.00825.pdf)
