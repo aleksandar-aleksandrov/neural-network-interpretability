@@ -1,5 +1,5 @@
 ## Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps
- | [Paper](https://arxiv.org/pdf/1312.6034.pdf) | [Notes](./notes_visualizing_models.md) | [Implementation](../implementation/main.py)
+ | [Paper](https://arxiv.org/pdf/1312.6034.pdf) | [Notes](./notes_visualizing_models.md) | [Implementation](../implementation/main.ipynb)
 ***
 ### Class Model Visualization
 We start from an initial image and try to find the image that would lead to the highest possible score for the chosen class.
