@@ -1,3 +1,4 @@
+import torch
 import torchvision
 import numpy as np
 import matplotlib.pyplot as plt
@@ -10,7 +11,11 @@ def imshow(img):
     plt.show()
 
 
-def show_examples(trainloader):
+def show_examples(images):
+    imshow(torchvision.utils.make_grid(images))
+
+
+def show_dataset_examples(trainloader):
     dataiter = iter(trainloader)
     images, labels = dataiter.next()
 
@@ -18,5 +23,13 @@ def show_examples(trainloader):
     labels = labels[0:4]
 
     print(' '.join('%5s' % labels[j].item() for j in range(4)))
-    imshow(torchvision.utils.make_grid(images))
 
+    show_examples(images)
+
+
+def show_neighbors(left_image, right_image):
+    show = torch.zeros((2, 1, 28, 28))
+    show[0] = left_image
+    show[1] = right_image
+
+    imshow(torchvision.utils.make_grid(show))
