@@ -1,4 +1,7 @@
-# [Project 4] Interpretability of Neural Networks
+# Interpretability of Neural Networks
+
+**This project has been done in collaboration with [@hans66hsu](https://github.com/hans66hsu) as part of the Master Practical Course "Beyond Deep Learning: Uncertainty-Aware Models" at the Technical University of Munich.**
+
 
 ## I. Project work overview
 
