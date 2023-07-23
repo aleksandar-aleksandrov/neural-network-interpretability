@@ -1,5 +1,5 @@
 matplotlib==3.3.0
-torch==1.5.0+cpu
+torch==1.13.1
 torchvision==0.6.0+cpu
 pillow==6.2.1
 numpy==1.18.2
